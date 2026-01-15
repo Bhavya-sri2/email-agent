@@ -1,0 +1,27 @@
+autopilot:
+  enabled: false
+  allowed_categories:
+    - scheduling
+    - simple_ack
+    - follow_up
+
+classification:
+  categories:
+    - scheduling
+    - question
+    - opportunity
+    - personal
+    - spam
+    - simple_ack
+    - follow_up
+
+safety:
+  never_send_keywords:
+    - invoice
+    - payment
+    - legal
+    - contract
+    - offer
+    - money
+    - ssn
+    - passport

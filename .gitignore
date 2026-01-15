@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+
+# Secrets / OAuth
+client_secret.json
+token.json
+token_*.json
+
+# Env
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+token_backups/
