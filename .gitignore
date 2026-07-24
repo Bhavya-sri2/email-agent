@@ -20,3 +20,8 @@ token_*.json
 .vscode/
 
 token_backups/
+
+
+# Database (local runtime data, not for public repo)
+data/*.db
+*.db
