@@ -1,4 +1,4 @@
-# Personal Email Agent (Gmail + Local LLM)
+—————# Personal Email Agent (Gmail + Local LLM)
 
 - AI-powered personal email assistant connected to Gmail using OAuth (no passwords)
 - Reads unread inbox emails and generates an automatic reply
@@ -52,3 +52,21 @@
 - Send an email to the connected Gmail inbox
 - Run `py -m scripts.reply_latest_send`
 - Check Sent Mail for the reply and Inbox for marked-as-read behavior
+
+
+## Demo Screenshots
+
+**Inbox overview** - unread emails processed by the agent, with auto-generated replies visible in the thread previews.
+![Inbox overview](inbox-overview.png)
+
+**Auto-reply example (TEST2 thread)** - the agent reads an incoming message and drafts a contextual reply.
+![Reply to TEST2 thread](inbox-reply-TEST2.png)
+
+**Auto-reply example (Doubt thread)** - a real question answered automatically by the agent.
+![Reply to Doubt thread](inbox-reply-doubt-thread.png)
+
+**Auto-reply example (test3 thread)** - another example of an automatic, context-aware reply.
+![Reply to test3 thread](inbox-reply-test3.png)
+
+**Terminal output** - the agent running locally, confirming a reply was drafted and sent successfully.
+![VS Code terminal output](vscode-terminal-output.png)
